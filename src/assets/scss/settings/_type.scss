@@ -1,0 +1,76 @@
+$type-sizes: (
+  body: (
+    null: (
+      1.6rem,
+      1.25,
+    ),
+    md: (
+      1.8rem,
+      1.25,
+    ),
+  ),
+  level-1: (
+    null: (
+      4.395rem,
+      1.25,
+    ),
+    md: (
+      6rem,
+      1,
+    ),
+  ),
+  level-2: (
+    null: (
+      3.8rem,
+      1.25,
+    ),
+    md: (
+      4.395rem,
+      1.25,
+    ),
+  ),
+  level-3: (
+    null: (
+      3.316rem,
+      1.25,
+    ),
+    md: (
+      3.516rem,
+      1.25,
+    ),
+  ),
+  level-4: (
+    null: (
+      2.613rem,
+      1.25,
+    ),
+    md: (
+      2.813rem,
+      1.25,
+    ),
+  ),
+  level-5: (
+    null: (
+      2rem,
+      1.25,
+    ),
+    md: (
+      2.25rem,
+      1.25,
+    ),
+  ),
+  level-6: (
+    null: (
+      1.8rem,
+      1.25,
+    ),
+  ),
+  hero-copy: (
+    md: (
+      2.8rem,
+      1.25
+    )
+  )
+);
+
+@import 'node_modules/iotacss-objs-type/objects.type';

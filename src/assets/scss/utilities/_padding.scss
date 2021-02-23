@@ -1,0 +1,26 @@
+/*
+* Iota padding utility classes
+* https://www.iotacss.com/docs/utilities/padding/
+*/
+
+// Generally used for vertical padding on container
+
+$iota-utils-padding-namespace: 'p';
+$iota-utils-padding-top-name: 't';
+$iota-utils-padding-right-name: 'r';
+$iota-utils-padding-bottom-name: 'b';
+$iota-utils-padding-left-name: 'l';
+$iota-utils-padding-vertical-name: 'v';
+$iota-utils-padding-horizontal-name: 'h';
+
+$iota-utils-padding-default: t b v;
+$iota-utils-padding-extra: (
+  null: $iota-global-gutter-default,
+  0: 0,
+  78: 7.8rem,
+);
+
+$iota-utils-padding-res: true !default;
+$iota-utils-padding-breakpoints: $iota-global-breakpoints;
+
+@import 'node_modules/iotacss/utilities/padding';

@@ -1,0 +1,13 @@
+{
+  "presets": [
+    [
+      "airbnb",
+      {
+        "additionalTargets": {
+          "chrome": 42,
+          "ie": 8
+        }
+      }
+    ]
+  ]
+}
