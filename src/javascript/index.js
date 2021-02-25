@@ -1,5 +1,5 @@
 import { Dialog } from './components/Dialog'
-import './components/nav'
+import { changeHeaderText } from './components/nav'
 
 const targets = document.querySelectorAll('.lazy')
 
@@ -44,3 +44,5 @@ Array.prototype.slice.call(navDialogEls).forEach((navDialogEl) => {
 })
 
 hamburgerMenu()
+changeHeaderText({ depth: 'hs-menu-depth-2' })
+changeHeaderText({ depth: 'hs-menu-depth-3' })
